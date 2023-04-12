@@ -1,5 +1,4 @@
 import os
-#from varios import principal
 import calculoDNI
 import salariobase
 import radiocirculo
@@ -20,9 +19,7 @@ import Ejercicio18
 import Ejercicio19
 import Ejercicio20
 
-importlibimport
-
-while True
+while True:
     os.system('cls') #limpia pantalla
     print('Bienvenidos')
     print('1- Determinar letra del DNI')
@@ -46,51 +43,51 @@ while True
     print('19-Eliminar números duplicados de una lista')
     print('20- Determinar si un número es capicúa')
     print('0- Salir del programa')
-    opcion = input('seleccione programa a ejecutar')
-     if opcion = '1':
-       calculoDNI()
-     elif opcion = '2'
-       salariobase()
-     elif opcion = '3'
-       
-     elif opcion = '4'
-       radiocirculo()
-     elif opcion = '5'
-       mayormenornum()
-     elif opcion = '6'
-       gradoscelsius()
-     elif opcion = '7'
-       numeropar()
-     elif opcion = '8'
-       anyobisiesto()
-     elif opcion = '9'
-       palindromo()
-     elif opcion = '10'
-       listaordenada()
-     elif opcion = '11'
-       Ejercicio11()
-     elif opcion = '12'
-       Ejercicio12()
-     elif opcion = '13'
-       Ejercicio13()
-     elif opcion = '14'
-       Ejercicio14()
-     elif opcion = '15'
-       Ejercicio15()
-     elif opcion = '16'
-       Ejercicio16()
-     elif opcion = '17'
-       Ejercicio17()
-     elif opcion = '18'
-        Ejercicio18()
-     elif opcion = '19'
-        Ejercicio19()
-     elif opcion = '20'
-       Ejercicio20()
-     elif opcion = 0 
-        print('Un placer, hasta la proxima')
-        break
-    continuar= input('presione enter para continuar')
+    opcion = input('seleccione programa a ejecutar: ')
+    if opcion == '1':
+      calculoDNI.calculodni()
+    elif opcion == '2':
+      salariobase.salariobase()
+    #elif opcion == '3':
+    # Falta ejercicio 3   
+    elif opcion == '4':
+      radiocirculo.radiocirculo()
+    elif opcion == '5':
+      mayormenornum.mayormenornum()
+    elif opcion == '6':
+      gradoscelsius.gradoscelsius()
+    elif opcion == '7':
+      numeropar.numeropar()
+    elif opcion == '8':
+      anyobisiesto.anyobisiesto()
+    elif opcion == '9':
+      palindromo.palindromo()
+    elif opcion == '10':
+      listaordenada.listaordenada()
+    elif opcion == '11':
+      Ejercicio11.factorial()
+    elif opcion == '12':
+      Ejercicio12.numeroprimo()
+    elif opcion == '13':
+      Ejercicio13.cubo()
+    elif opcion == '14':
+      Ejercicio14.sumalista()
+    elif opcion == '15':
+      Ejercicio15.posneg()
+    elif opcion == '16':
+      Ejercicio16.medialista()
+    elif opcion == '17':
+      Ejercicio17.adivinarrand()
+    elif opcion == '18':
+       Ejercicio18.anagrama()
+    elif opcion == '19':
+       Ejercicio19.elimduplicados()
+    elif opcion == '20':
+      Ejercicio20.capicua()
+    elif opcion == 0:
+      print('Un placer, hasta la proxima')
+      break
+    continuar = input('presione enter para continuar')
 
 
   
