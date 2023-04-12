@@ -84,7 +84,7 @@ while True:
        Ejercicio19.elimduplicados()
     elif opcion == '20':
       Ejercicio20.capicua()
-    elif opcion == 0:
+    elif opcion == "0":
       print('Un placer, hasta la proxima')
       break
     continuar = input('presione enter para continuar')
