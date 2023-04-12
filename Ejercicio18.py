@@ -1,7 +1,10 @@
 def anagrama():
     a = input("Escriba una palabra: ")
     b = input("Escriba otra palabra: ")
-    if sorted(a) == sorted(b):
-        print("Son anagramas!")
+    if a.isdigit() or b.isdigit():
+        print("El valor insertado no es un numero.")
     else:
-        print("No son anagramas!")
+        if sorted(a) == sorted(b):
+            print("Son anagramas!")
+        else:
+            print("No son anagramas!")
